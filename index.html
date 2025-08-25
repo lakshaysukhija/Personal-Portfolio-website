@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-container">
+            <h1>Here is My Portfolio</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About </a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight"> Lakshay Sukhija</span></h1>
+            <p> A Full Stack Developer</p>
+            <p>I create amazing web applications</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+   
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I’m a passionate and detail-oriented developer with experience in designing and building interactive, user-focused applications. Skilled in Java, C++, Spring Boot, MongoDB, SQL, HTML, CSS, and JavaScript, I enjoy writing clean, maintainable code and solving complex problems with efficient solutions.
+            </p>
+            <div class="resume-button-container">
+    <a href="Resume__.pdf" download="Lakshay_Sukhija_Resume.pdf" class="btn">Download Resume</a>
+</div>
+            <br>
+            <div class="skills">
+                <h3> My Skills</h3>
+                <div class="skill-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>JAVA</span>
+                    <span>C++</span>
+                    <span>OOPs</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Interactive Hand Duel Game
+                    </h3>
+                    <p> It is a browser-based competitive hand gesture game featuring smooth animations, responsive design.</p>
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                       
+                        <a href="https://github.com/lakshaysukhija/Interactive-Hand-Duel-Game" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3> Registration System</h3>
+                    <p>
+                    I Developed a secure backend system for user registration and login using JAVA and MongoDB.</p>
+                    <div class="tech-stack">
+                        <span>JAVA</span>
+                        <span>MongoDB</span>
+                        <span>Spring Boot</span>
+                    </div>
+                    <div class="project-links">
+                        
+                        <a href="https://github.com/lakshaysukhija/Registration-System" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>My Contact Info</h3>
+                    <p>Email: lakshaysukhija2002@gmail.com</p>
+                    <p>Phone: 8397000000</p>
+                    <p>Location: Hisar, Haryana</p>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p> All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
